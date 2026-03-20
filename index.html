@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasha | Personal Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-dot"></span>
+        Dasha
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navContent">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">О Даше</a></li>
+          <li class="nav-item"><a class="nav-link" href="#awards">Награды</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Фото</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero d-flex align-items-center">
+    <div class="hero-layer"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <span class="kicker">Dasha · 17</span>
+          <h1>Самая красивая девушка в мире</h1>
+          <p class="lead-text">
+            Даша покоряет с первого взгляда: нежный образ, невероятно красивые голубые глаза
+            и особое спокойное очарование, которое невозможно не заметить.
+          </p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#gallery" class="btn btn-main btn-lg">Смотреть фото</a>
+            <a href="#awards" class="btn btn-outline-light btn-lg">Награды</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-card">
+            <img src="photo_2026-03-10_00-43-28.jpg" class="hero-main-photo" alt="Даша">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section-space">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <img src="photo_2026-03-11_20-23-33.jpg" class="img-fluid section-photo about-photo" alt="Даша с букетом">
+          </div>
+          <div class="col-lg-7">
+            <h2>О Даше</h2>
+            <p>
+              Даша, 17 лет. Её внешность узнаваема с первого взгляда: выразительные голубые глаза,
+              длинные ухоженные волосы и мягкий, естественный стиль.
+            </p>
+            <p>
+              Её улыбка и взгляд делают каждую фотографию живой, а легкость и естественность
+              в образе подчеркивают ее индивидуальность и редкую, запоминающуюся красоту.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section-space section-soft">
+      <div class="container">
+        <div class="section-top">
+          <h2>Награды и титулы</h2>
+          <p>Награды, подчеркивающие уникальные черты образа Даши.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article class="award-card h-100">
+              <div class="award-icon"><i class="bi bi-eye-fill"></i></div>
+              <h3>Самые красивые голубые глаза</h3>
+              <p>Титул за выразительный, глубокий и запоминающийся взгляд.</p>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="award-card h-100">
+              <div class="award-icon"><i class="bi bi-stars"></i></div>
+              <h3>Самые прекрасные волосы</h3>
+              <p>Награда за длину, блеск и безупречный естественный уход.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section-space">
+      <div class="container">
+        <div class="section-top">
+          <h2>Фотогалерея</h2>
+          <p>Подборка фотографий Даши.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img src="photo_2026-01-10_14-09-14.jpg" class="img-fluid gallery-photo gallery-photo-1" alt="Даша фото 1">
+          </div>
+          <div class="col-md-4">
+            <img src="photo_2026-01-11_00-38-09.jpg" class="img-fluid gallery-photo gallery-photo-2" alt="Даша фото 2">
+          </div>
+          <div class="col-md-4">
+            <img src="photo_2026-01-25_21-40-05.jpg" class="img-fluid gallery-photo gallery-photo-3" alt="Даша фото 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-space section-soft pb-5">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <h2>Контакты</h2>
+            <p>Раздел для связи и предложений сотрудничества.</p>
+            <div class="contact-line"><i class="bi bi-instagram"></i> @dasha</div>
+            <div class="contact-line"><i class="bi bi-telegram"></i> @dasha</div>
+          </div>
+          <div class="col-lg-5">
+            <div class="mini-card">
+              <p class="mb-2">Dasha · Personal Page</p>
+              <small>Адаптивный сайт на Bootstrap 5</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span>© 2026 Dasha</span>
+      <span>Designed with Bootstrap</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
